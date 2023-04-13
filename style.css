@@ -1,1 +1,16 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.container {
+  background-color: #87CEFA;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  position: relative;
+}
+
+.text-main > h2 {
+  position: absolute;
+  top: 8%;
+  left: 36%;
+}
+/*# sourceMappingURL=style.css.map */
