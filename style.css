@@ -2,6 +2,7 @@
 .container {
   background-color: #c3f6ff;
   width: 100%;
+  max-width: 1500px;
 }
 
 img {
@@ -151,5 +152,92 @@ h2 span {
 
 .main1-contents .main1-right > img {
   width: 70%;
+}
+
+.main2-all.container {
+  padding: 0 10rem;
+}
+
+.frame1-contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  padding: 1.5rem;
+}
+
+.frame1-contents .f1-contents-left {
+  width: 50%;
+  padding: 0.5rem;
+}
+
+.frame1-contents .f1-contents-left > h1 {
+  letter-spacing: 0.3rem;
+}
+
+.frame1-contents .f1-contents-left > p {
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+  padding: 2rem 0;
+}
+
+.frame1-contents .f1-contents-right {
+  width: 50%;
+}
+
+.f1-img {
+  width: 8%;
+  position: relative;
+  top: -2rem;
+  left: 21rem;
+}
+
+.frame2-contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.frame2-contents .f2-contents-left {
+  width: 50%;
+}
+
+.frame2-contents .f2-contents-left .left-title > h1 {
+  letter-spacing: 0.3rem;
+  font-size: 4rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.frame2-contents .f2-contents-left .left-title > h3 {
+  letter-spacing: 0.3rem;
+  text-align: center;
+}
+
+.frame2-contents .f2-contents-left .left-title .title-line {
+  border: solid;
+  width: 80%;
+  margin: auto;
+}
+
+.frame2-contents .f2-contents-left .left-title > p {
+  width: 90%;
+  padding-left: 3rem;
+  margin-top: 1rem;
+  letter-spacing: 0.3rem;
+}
+
+.frame2-contents .f2-contents-left .left-text-under {
+  padding-left: 3rem;
+  margin-top: 2rem;
+  letter-spacing: 0.3rem;
+}
+
+.frame2-contents .f2-contents-left .left-text-under > h2 {
+  -webkit-text-stroke: 0.04rem #FFF;
+}
+
+.frame2-contents .f2-contents-right {
+  width: 50%;
 }
 /*# sourceMappingURL=style.css.map */

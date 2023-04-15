@@ -1,6 +1,7 @@
 .container {
     background-color: 	#c3f6ff;
     width: 100%;
+    max-width: 1500px;
 }
 //header
 img {
@@ -133,6 +134,78 @@ h2 span {
         }
     }
 }
+//main2 frame1
+.main2-all.container {
+    padding: 0 10rem;
+}
+.frame1-contents {
+    display: flex;
+    background-color: white;
+    padding: 1.5rem;
+    .f1-contents-left {
+        width: 50%;
+        padding: 0.5rem;
+        & > h1 {
+            letter-spacing: 0.3rem;
+        }
+        & > p {
+            font-size: 1.3rem;
+            line-height: 2.5rem;
+            padding: 2rem 0;
+        }
+    }
+    .f1-contents-right {
+        width: 50%;
+    }
+}
+.f1-img {
+    width: 8%;
+    position: relative;
+    top: -2rem;
+    left: 21rem;
+}
+//main2 frame2 
+.frame2-contents {
+    display: flex;
+    .f2-contents-left {
+        width: 50%;
+        .left-title {
+            & > h1 {
+                letter-spacing: 0.3rem;
+                font-size: 4rem;
+                margin-bottom: 0;
+                text-align: center;
+            }
+            & > h3 {
+                letter-spacing: 0.3rem;
+                text-align: center;
+            }
+            .title-line {
+                border: solid;
+                width : 80%;
+                margin: auto;
+            }
+            & > p {
+                width: 90%;
+                padding-left: 3rem;
+                margin-top: 1rem;
+                letter-spacing: 0.3rem;
+            }
+        }
+        .left-text-under {
+            padding-left: 3rem;
+            margin-top: 2rem;
+            letter-spacing: 0.3rem;
+            & > h2 {
+                -webkit-text-stroke: 0.04rem #FFF;
+            }
+        }
+    }
+    .f2-contents-right {
+        width: 50%;
+    }
+}
+
 
 //footer
 
