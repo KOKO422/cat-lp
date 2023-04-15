@@ -1,15 +1,91 @@
 .container {
-    background-color: 	#87CEFA;
+    background-color: 	#c3f6ff;
     width: 100%;
 }
+//header
 img {
     width: 100%;
     position: relative;
 }
-.text-main > h2 {
+/*.text-main > h2 {
     position: absolute;
     top: 8%;
     left: 36%;
+    -webkit-text-stroke: 0.1rem #FFF;
+    font-weight: bold;
 }
+h2 span {
+	height: 200px;
+	position: absolute;
+	width: 20px;
+	left: 380px;
+	top: 10px;
+    -webkit-text-stroke: 0.1rem #FFF;
+    font-weight: bold;
+	transform-origin: bottom center;
+	}
+  .char1 { transform: rotate(-37deg); }
+  .char2 { transform: rotate(-30deg); }
+  .char3 { transform: rotate(-23deg); }
+  .char4 { transform: rotate(-16deg); }
+  .char5 { transform: rotate(-9deg); }
+  .char6 { transform: rotate(-2deg); }
+  .char7 { transform: rotate(5deg); }
+  .char8 { transform: rotate(12deg); }
+  .char9 { transform: rotate(19deg); }
+  .char10 { transform: rotate(26deg); }
+  .char11 { transform: rotate(33deg); }
+  .char12 { transform: rotate(40deg); }
+*/
+.text-midle {
+    text-align: center;
+    & > p {
+        font-size: 1.5rem;
+        font-weight: bold;
+        -webkit-text-stroke: 0.04rem #FFF;
+    }
+}
+.header-text-under {
+    display: flex;
+    padding: 0 1rem 0 8rem;
+    .text-kakko {
+        width: 100%;
+        /* 線の長さ */
+        --len: 4rem;
+        /* 線の太さ */
+        --size: 0.18rem;
+        /* 線の色 */
+        --bColor: #F8F8FF;
+        /* 次の黒線の位置 */
+        --next-pos: calc(100% - var(--len));
+        /* 線のパターン */
+        --line: var(--bColor) var(--len), transparent var(--len) var(--next-pos), var(--bColor) var(--next-pos);
+        position: relative;
+        padding: 0.7rem;
+        margin-bottom: 0.2rem;
+        font-weight: bold;
+        font-size: 1.6rem;
+        background: linear-gradient(90deg, var(--line)) 0 0/100% var(--size),
+            linear-gradient(90deg, var(--line)) 0 100%/100% var(--size),
+            linear-gradient(0, var(--line)) 0 0/ var(--size) 100%,
+            linear-gradient(0, var(--line)) 100% 0/ var(--size) 100% transparent;
+        background-repeat: no-repeat;
+        .text-inside {
+            background-color: #F8F8FF;
+            text-align: center;
+            padding: 2rem;
+            & > h3 {
+                margin-bottom: 1.5rem;
+            }
+        }
+    }
+    .img-cat1 {
+        width: 15%;
+        left: -2rem;
+        top: -3rem;
+        position: relative;
+    }
+}
+
 //footer
 
