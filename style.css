@@ -421,4 +421,36 @@ h2 span {
 .mainThr-frameOne .frameOne-frame .frameOne-frameSmall .dotted-line {
   border-bottom: dashed 0.2rem white;
 }
+
+.mainThr-frameSec {
+  background-image: url();
+  background-color: #ebc9b7;
+}
+
+.mainThr-frameSec .mainThr-frameSec-all {
+  position: relative;
+  padding: 2rem;
+}
+
+.mainThr-frameSec .mainThr-frameSec-all .frameSec-Thema {
+  width: 22%;
+  margin-left: 5rem;
+  letter-spacing: 0.3rem;
+}
+
+.mainThr-frameSec .mainThr-frameSec-all .question {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 15%;
+  left: 60%;
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+}
+
+.mainThr-frameSec .mainThr-frameSec-all .question > p {
+  margin: 0px 10rem 0 0;
+  font-size: 4rem;
+}
 /*# sourceMappingURL=style.css.map */

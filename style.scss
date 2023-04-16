@@ -364,6 +364,32 @@ h2 span {
         }
     }
 }
+//mainThr-frameSec
+.mainThr-frameSec {
+    background-image: url();
+    background-color: #ebc9b7;//画像くるまで
+    .mainThr-frameSec-all {
+        position: relative;
+        padding: 2rem;
+        .frameSec-Thema {
+            width: 22%;
+            margin-left: 5rem;
+            letter-spacing: 0.3rem;
+        }
+        .question {
+            display: flex;
+            position: absolute;
+            top: 15%;
+            left: 60%;
+            transform: rotate(-20deg);
+            & > p {
+                margin: 0px 10rem 0 0;
+                font-size: 4rem;
+            }
+        }
+    }
+}
+
 
 //footer
 
