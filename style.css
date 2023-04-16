@@ -158,6 +158,10 @@ h2 span {
   padding: 0 10rem;
 }
 
+.main2-frame1 {
+  margin-bottom: 3rem;
+}
+
 .frame1-contents {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -186,9 +190,9 @@ h2 span {
 }
 
 .f1-img {
-  width: 8%;
+  width: 10%;
   position: relative;
-  top: -2rem;
+  top: -5rem;
   left: 21rem;
 }
 
@@ -239,5 +243,43 @@ h2 span {
 
 .frame2-contents .f2-contents-right {
   width: 50%;
+}
+
+.frame2-contents .f2-contents-right .text-circle {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  border: solid 3px white;
+  text-align: center;
+  line-height: 8rem;
+}
+
+.frame2-contents .f2-contents-right .text-circle:nth-of-type(1) {
+  margin-left: 20%;
+}
+
+.frame2-contents .f2-contents-right .text-circle:nth-of-type(2) {
+  margin-left: 8%;
+}
+
+.frame2-contents .f2-contents-right .text-circle:nth-of-type(3) {
+  margin-left: 45%;
+  line-height: 2rem;
+  padding: 0.5rem;
+}
+
+.frame2-contents .f2-contents-right .text-circle > p {
+  font-size: 2.5rem;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.frame2-contents .f2-contents-right .text-circle.th > p:nth-of-type(1) {
+  font-size: 0.8rem;
+}
+
+.frame2-contents .f2-contents-right .text-circle.th > p:nth-of-type(2) {
+  font-size: 1.6rem;
 }
 /*# sourceMappingURL=style.css.map */

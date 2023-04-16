@@ -138,6 +138,9 @@ h2 span {
 .main2-all.container {
     padding: 0 10rem;
 }
+.main2-frame1 {
+    margin-bottom: 3rem;
+}
 .frame1-contents {
     display: flex;
     background-color: white;
@@ -158,13 +161,13 @@ h2 span {
         width: 50%;
     }
 }
+//main2 frame2 
 .f1-img {
-    width: 8%;
+    width: 10%;
     position: relative;
-    top: -2rem;
+    top: -5rem;
     left: 21rem;
 }
-//main2 frame2 
 .frame2-contents {
     display: flex;
     .f2-contents-left {
@@ -203,6 +206,40 @@ h2 span {
     }
     .f2-contents-right {
         width: 50%;
+        .text-circle {
+            width: 8rem;
+            height: 8rem;
+            border-radius: 50%;
+            border: solid 3px white;
+            text-align: center;
+            line-height: 8rem;
+            &:nth-of-type(1) {
+                margin-left: 20%;
+            }
+            &:nth-of-type(2) {
+                margin-left: 8%;
+            }
+            &:nth-of-type(3) {
+                margin-left: 45%;
+                line-height: 2rem;
+                padding: 0.5rem;
+            }
+            & > p {
+                font-size: 2.5rem;
+                color: white;
+                font-weight: bold;
+                margin-bottom: 0;
+            }
+        }
+        .text-circle.th {
+            & > p:nth-of-type(1) {
+                font-size: 0.8rem;
+            }
+            & > p:nth-of-type(2) {
+                font-size: 1.6rem;
+            }
+        }
+          
     }
 }
 
