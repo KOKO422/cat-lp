@@ -87,13 +87,13 @@ h2 span {
         position: relative;
     }
 }
-//main1
-.main1-img {
+//mainOne
+.main-img {
     width: 15%;
 }
-.main1-contents {
+.mainOne-contents {
     display: flex;
-    .main1-left {
+    .mainOne-left {
         width: 60%;
         padding-left: 15%;
         margin: auto;
@@ -101,7 +101,7 @@ h2 span {
             font-size: 2rem;
             letter-spacing: 0.3rem;
         }
-        .main1text-all {
+        .mainOnetext-all {
             .text-square {
                 background-color: deepskyblue;
                 margin: 1rem 15rem 1rem 0rem;
@@ -127,25 +127,25 @@ h2 span {
             }
         }
     }
-    .main1-right {
+    .mainOne-right {
         width: 40%;
         & > img {
             width: 70%;
         }
     }
 }
-//main2 frame1
-.main2-all.container {
-    padding: 0 10rem;
+//mainSec frameOne
+.mainSec-all.container {
+    padding: 0 10rem 3rem;
 }
-.main2-frame1 {
+.mainSec-frameOne {
     margin-bottom: 3rem;
 }
-.frame1-contents {
+.frameOne-contents {
     display: flex;
     background-color: white;
     padding: 1.5rem;
-    .f1-contents-left {
+    .fOne-contents-left {
         width: 50%;
         padding: 0.5rem;
         & > h1 {
@@ -157,21 +157,22 @@ h2 span {
             padding: 2rem 0;
         }
     }
-    .f1-contents-right {
+    .fOne-contents-right {
         width: 50%;
     }
 }
-//main2 frame2 
-.f1-img {
+//mainSec frameSec
+.fOne-img {
     width: 10%;
     position: relative;
     top: -5rem;
     left: 21rem;
 }
-.frame2-contents {
+.frameSec-contents {
     display: flex;
-    .f2-contents-left {
+    .fSec-contents-left {
         width: 50%;
+        margin: auto;
         .left-title {
             & > h1 {
                 letter-spacing: 0.3rem;
@@ -204,7 +205,7 @@ h2 span {
             }
         }
     }
-    .f2-contents-right {
+    .fSec-contents-right {
         width: 50%;
         .text-circle {
             width: 8rem;
@@ -242,7 +243,127 @@ h2 span {
           
     }
 }
-
+//mainSec-frameThr
+.mainSec-frameThr-all {
+    background-color: white;
+    padding: 1rem 0px;
+    .frameThr-contents {
+        display: flex;
+        padding: 3rem 3rem 0;
+        .fThr-contents-left {
+            width: 50%;
+        }
+        .fThr-contents-right {
+            width: 50%;
+            padding: 2rem;
+            & > p:nth-of-type(1) {
+                letter-spacing: 0.3rem;
+                font-size: 2rem;
+                font-weight: bold;
+            }
+            & > p:nth-of-type(2) {
+                letter-spacing: 0.3rem;
+            }
+        }
+    }
+    .frameThr-contents-under {
+        h2 {
+            line-height: 3.7rem;
+            position: relative;
+            height: 3.55rem;
+            margin: 0rem 11rem 1em;
+            padding: 0 2rem;
+            text-align: center;
+            color: #fff;
+            background: #ebc9b7;
+          }
+          
+          h2:before,
+          h2:after {
+            position: absolute;
+            top: 0;
+            display: block;
+            height: 3rem;
+            content: '';
+            border: 1.8rem solid #ebc9b7;
+          }
+          
+          h2:before {
+            left: -2.5rem;
+            border-left-width: 0.9rem;
+            border-left-color: transparent;
+          }
+          
+          h2:after {
+            right: -2.5rem;
+            border-right-width: 0.9rem;
+            border-right-color: transparent;
+          }
+          
+          h2 span {
+            position: relative;
+            display: block;
+          }
+    }    
+}
+.mainSec-frameThr-under {
+    position: relative;
+    //display: flex;
+    & > img {
+        width: 10%;
+        position: absolute;
+        top: -7rem;
+        right: 5rem;
+        &:nth-of-type(2) {
+            width: 25%;
+            top: 0rem;
+            right: -2rem;
+        }
+    }
+    .fThr-under-f {
+        text-align: center;
+        padding: 1rem;
+        background-color: #6a5247;
+        font-size: 2rem;
+        color: white;
+        margin: 4rem 0;
+        & > p {
+            margin-bottom: 0;
+        }
+    }
+}
+//mainThr-frameOne
+.mainThr-frameOne {
+    background-color: #6a5247;
+    padding: 1rem 4rem;
+    .frameOne-frame {
+        border: solid 0.5rem white;
+        padding: 0.5rem;
+        .frameOne-frameSmall {
+            border: solid 0.2rem white;
+            padding: 1rem 3rem;
+            text-align: center;
+            & > p {
+                font-size: 2rem;
+                color: white;
+                margin-bottom: 0;
+                & > span {
+                    font-size: 3rem;
+                }
+            }
+            & > p:nth-of-type(2) {
+                font-size: 1.5rem;
+                margin-top: 2rem;
+            }
+            & > img {
+                width: 50%;
+            }
+            .dotted-line {
+                border-bottom: dashed 0.2rem white;
+            }
+        }
+    }
+}
 
 //footer
 

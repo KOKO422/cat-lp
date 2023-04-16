@@ -96,73 +96,73 @@ h2 span {
   position: relative;
 }
 
-.main1-img {
+.main-img {
   width: 15%;
 }
 
-.main1-contents {
+.mainOne-contents {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.main1-contents .main1-left {
+.mainOne-contents .mainOne-left {
   width: 60%;
   padding-left: 15%;
   margin: auto;
 }
 
-.main1-contents .main1-left > h3 {
+.mainOne-contents .mainOne-left > h3 {
   font-size: 2rem;
   letter-spacing: 0.3rem;
 }
 
-.main1-contents .main1-left .main1text-all .text-square {
+.mainOne-contents .mainOne-left .mainOnetext-all .text-square {
   background-color: deepskyblue;
   margin: 1rem 15rem 1rem 0rem;
   padding-left: 1rem;
 }
 
-.main1-contents .main1-left .main1text-all .text-square > p {
+.mainOne-contents .mainOne-left .mainOnetext-all .text-square > p {
   font-size: 3rem;
   color: white;
 }
 
-.main1-contents .main1-left .main1text-all .text-square > p > sup {
+.mainOne-contents .mainOne-left .mainOnetext-all .text-square > p > sup {
   font-size: 1rem;
   top: -1.5em;
   margin: 0 0.5rem;
 }
 
-.main1-contents .main1-left .main1text-all .text-square:nth-of-type(3) {
+.mainOne-contents .mainOne-left .mainOnetext-all .text-square:nth-of-type(3) {
   margin: 1rem 10rem 0rem 0rem;
 }
 
-.main1-contents .main1-left .main1text-all .text-square:nth-of-type(3) > p {
+.mainOne-contents .mainOne-left .mainOnetext-all .text-square:nth-of-type(3) > p {
   margin-bottom: 0;
 }
 
-.main1-contents .main1-left .main1text-all .kome {
+.mainOne-contents .mainOne-left .mainOnetext-all .kome {
   margin-left: 7rem;
 }
 
-.main1-contents .main1-right {
+.mainOne-contents .mainOne-right {
   width: 40%;
 }
 
-.main1-contents .main1-right > img {
+.mainOne-contents .mainOne-right > img {
   width: 70%;
 }
 
-.main2-all.container {
-  padding: 0 10rem;
+.mainSec-all.container {
+  padding: 0 10rem 3rem;
 }
 
-.main2-frame1 {
+.mainSec-frameOne {
   margin-bottom: 3rem;
 }
 
-.frame1-contents {
+.frameOne-contents {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -170,82 +170,83 @@ h2 span {
   padding: 1.5rem;
 }
 
-.frame1-contents .f1-contents-left {
+.frameOne-contents .fOne-contents-left {
   width: 50%;
   padding: 0.5rem;
 }
 
-.frame1-contents .f1-contents-left > h1 {
+.frameOne-contents .fOne-contents-left > h1 {
   letter-spacing: 0.3rem;
 }
 
-.frame1-contents .f1-contents-left > p {
+.frameOne-contents .fOne-contents-left > p {
   font-size: 1.3rem;
   line-height: 2.5rem;
   padding: 2rem 0;
 }
 
-.frame1-contents .f1-contents-right {
+.frameOne-contents .fOne-contents-right {
   width: 50%;
 }
 
-.f1-img {
+.fOne-img {
   width: 10%;
   position: relative;
   top: -5rem;
   left: 21rem;
 }
 
-.frame2-contents {
+.frameSec-contents {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.frame2-contents .f2-contents-left {
+.frameSec-contents .fSec-contents-left {
   width: 50%;
+  margin: auto;
 }
 
-.frame2-contents .f2-contents-left .left-title > h1 {
+.frameSec-contents .fSec-contents-left .left-title > h1 {
   letter-spacing: 0.3rem;
   font-size: 4rem;
   margin-bottom: 0;
   text-align: center;
 }
 
-.frame2-contents .f2-contents-left .left-title > h3 {
+.frameSec-contents .fSec-contents-left .left-title > h3 {
   letter-spacing: 0.3rem;
   text-align: center;
 }
 
-.frame2-contents .f2-contents-left .left-title .title-line {
+.frameSec-contents .fSec-contents-left .left-title .title-line {
   border: solid;
   width: 80%;
   margin: auto;
 }
 
-.frame2-contents .f2-contents-left .left-title > p {
+.frameSec-contents .fSec-contents-left .left-title > p {
   width: 90%;
   padding-left: 3rem;
   margin-top: 1rem;
   letter-spacing: 0.3rem;
 }
 
-.frame2-contents .f2-contents-left .left-text-under {
+.frameSec-contents .fSec-contents-left .left-text-under {
   padding-left: 3rem;
   margin-top: 2rem;
   letter-spacing: 0.3rem;
 }
 
-.frame2-contents .f2-contents-left .left-text-under > h2 {
+.frameSec-contents .fSec-contents-left .left-text-under > h2 {
   -webkit-text-stroke: 0.04rem #FFF;
 }
 
-.frame2-contents .f2-contents-right {
+.frameSec-contents .fSec-contents-right {
   width: 50%;
 }
 
-.frame2-contents .f2-contents-right .text-circle {
+.frameSec-contents .fSec-contents-right .text-circle {
   width: 8rem;
   height: 8rem;
   border-radius: 50%;
@@ -254,32 +255,170 @@ h2 span {
   line-height: 8rem;
 }
 
-.frame2-contents .f2-contents-right .text-circle:nth-of-type(1) {
+.frameSec-contents .fSec-contents-right .text-circle:nth-of-type(1) {
   margin-left: 20%;
 }
 
-.frame2-contents .f2-contents-right .text-circle:nth-of-type(2) {
+.frameSec-contents .fSec-contents-right .text-circle:nth-of-type(2) {
   margin-left: 8%;
 }
 
-.frame2-contents .f2-contents-right .text-circle:nth-of-type(3) {
+.frameSec-contents .fSec-contents-right .text-circle:nth-of-type(3) {
   margin-left: 45%;
   line-height: 2rem;
   padding: 0.5rem;
 }
 
-.frame2-contents .f2-contents-right .text-circle > p {
+.frameSec-contents .fSec-contents-right .text-circle > p {
   font-size: 2.5rem;
   color: white;
   font-weight: bold;
   margin-bottom: 0;
 }
 
-.frame2-contents .f2-contents-right .text-circle.th > p:nth-of-type(1) {
+.frameSec-contents .fSec-contents-right .text-circle.th > p:nth-of-type(1) {
   font-size: 0.8rem;
 }
 
-.frame2-contents .f2-contents-right .text-circle.th > p:nth-of-type(2) {
+.frameSec-contents .fSec-contents-right .text-circle.th > p:nth-of-type(2) {
   font-size: 1.6rem;
+}
+
+.mainSec-frameThr-all {
+  background-color: white;
+  padding: 1rem 0px;
+}
+
+.mainSec-frameThr-all .frameThr-contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3rem 3rem 0;
+}
+
+.mainSec-frameThr-all .frameThr-contents .fThr-contents-left {
+  width: 50%;
+}
+
+.mainSec-frameThr-all .frameThr-contents .fThr-contents-right {
+  width: 50%;
+  padding: 2rem;
+}
+
+.mainSec-frameThr-all .frameThr-contents .fThr-contents-right > p:nth-of-type(1) {
+  letter-spacing: 0.3rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.mainSec-frameThr-all .frameThr-contents .fThr-contents-right > p:nth-of-type(2) {
+  letter-spacing: 0.3rem;
+}
+
+.mainSec-frameThr-all .frameThr-contents-under h2 {
+  line-height: 3.7rem;
+  position: relative;
+  height: 3.55rem;
+  margin: 0rem 11rem 1em;
+  padding: 0 2rem;
+  text-align: center;
+  color: #fff;
+  background: #ebc9b7;
+}
+
+.mainSec-frameThr-all .frameThr-contents-under h2:before,
+.mainSec-frameThr-all .frameThr-contents-under h2:after {
+  position: absolute;
+  top: 0;
+  display: block;
+  height: 3rem;
+  content: '';
+  border: 1.8rem solid #ebc9b7;
+}
+
+.mainSec-frameThr-all .frameThr-contents-under h2:before {
+  left: -2.5rem;
+  border-left-width: 0.9rem;
+  border-left-color: transparent;
+}
+
+.mainSec-frameThr-all .frameThr-contents-under h2:after {
+  right: -2.5rem;
+  border-right-width: 0.9rem;
+  border-right-color: transparent;
+}
+
+.mainSec-frameThr-all .frameThr-contents-under h2 span {
+  position: relative;
+  display: block;
+}
+
+.mainSec-frameThr-under {
+  position: relative;
+}
+
+.mainSec-frameThr-under > img {
+  width: 10%;
+  position: absolute;
+  top: -7rem;
+  right: 5rem;
+}
+
+.mainSec-frameThr-under > img:nth-of-type(2) {
+  width: 25%;
+  top: 0rem;
+  right: -2rem;
+}
+
+.mainSec-frameThr-under .fThr-under-f {
+  text-align: center;
+  padding: 1rem;
+  background-color: #6a5247;
+  font-size: 2rem;
+  color: white;
+  margin: 4rem 0;
+}
+
+.mainSec-frameThr-under .fThr-under-f > p {
+  margin-bottom: 0;
+}
+
+.mainThr-frameOne {
+  background-color: #6a5247;
+  padding: 1rem 4rem;
+}
+
+.mainThr-frameOne .frameOne-frame {
+  border: solid 0.5rem white;
+  padding: 0.5rem;
+}
+
+.mainThr-frameOne .frameOne-frame .frameOne-frameSmall {
+  border: solid 0.2rem white;
+  padding: 1rem 3rem;
+  text-align: center;
+}
+
+.mainThr-frameOne .frameOne-frame .frameOne-frameSmall > p {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 0;
+}
+
+.mainThr-frameOne .frameOne-frame .frameOne-frameSmall > p > span {
+  font-size: 3rem;
+}
+
+.mainThr-frameOne .frameOne-frame .frameOne-frameSmall > p:nth-of-type(2) {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+.mainThr-frameOne .frameOne-frame .frameOne-frameSmall > img {
+  width: 50%;
+}
+
+.mainThr-frameOne .frameOne-frame .frameOne-frameSmall .dotted-line {
+  border-bottom: dashed 0.2rem white;
 }
 /*# sourceMappingURL=style.css.map */
