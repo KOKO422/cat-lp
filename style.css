@@ -157,7 +157,7 @@ h2 span {
 
 .mainOne-contents .mainOne-left .mainOnetext-all .text-square {
   background-color: deepskyblue;
-  margin: 1rem 15rem 1rem 0rem;
+  margin: 1rem 10rem 1rem 0rem;
   padding-left: 1rem;
 }
 
@@ -173,7 +173,7 @@ h2 span {
 }
 
 .mainOne-contents .mainOne-left .mainOnetext-all .text-square:nth-of-type(3) {
-  margin: 1rem 10rem 0rem 0rem;
+  margin: 1rem 8rem 0rem 0rem;
 }
 
 .mainOne-contents .mainOne-left .mainOnetext-all .text-square:nth-of-type(3) > p {
@@ -193,7 +193,7 @@ h2 span {
 }
 
 .mainSec-all.container {
-  padding: 0 10rem 3rem;
+  padding: 3rem 10rem;
 }
 
 .mainSec-frameOne {
@@ -214,17 +214,24 @@ h2 span {
 }
 
 .frameOne-contents .fOne-contents-left > h1 {
+  font-size: 2rem;
   letter-spacing: 0.3rem;
 }
 
 .frameOne-contents .fOne-contents-left > p {
   font-size: 1.3rem;
-  line-height: 2.5rem;
   padding: 2rem 0;
 }
 
 .frameOne-contents .fOne-contents-right {
   width: 50%;
+  margin: auto;
+}
+
+.mainSec-frameSec {
+  background-image: url(img/img18.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .fOne-img {
@@ -273,7 +280,7 @@ h2 span {
 .frameSec-contents .fSec-contents-left .left-text-under {
   padding-left: 3rem;
   margin-top: 2rem;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.1rem;
 }
 
 .frameSec-contents .fSec-contents-left .left-text-under > h2 {
@@ -468,7 +475,7 @@ h2 span {
 
 .mainThr-frameSec .mainThr-frameSec-all {
   position: relative;
-  padding: 2rem;
+  padding: 2rem 2rem 6rem;
 }
 
 .mainThr-frameSec .mainThr-frameSec-all .frameSec-Thema {
@@ -580,6 +587,16 @@ h2 span {
   color: #FFF;
 }
 
+.mainFour-all {
+  position: relative;
+  padding-bottom: 6rem;
+}
+
+.mainFour-all > svg {
+  position: absolute;
+  top: -15rem;
+}
+
 .mainFour {
   text-align: center;
   padding: 3rem;
@@ -604,7 +621,7 @@ h2 span {
 
 .mainFour .mF-coating-list-all {
   width: 70%;
-  margin: auto;
+  margin: 3rem auto 2rem;
 }
 
 .mainFour .mF-coating-list-all .coating-list {
@@ -620,6 +637,130 @@ h2 span {
   width: 35%;
   height: 15rem;
   background-color: #6a5247;
-  margin-bottom: 3rem;
+}
+
+.mainFour .mF-coating-list-all .coating-arrow {
+  width: 0;
+  height: 0;
+  margin: auto 0;
+  border-left: 1.5rem solid #6a5247;
+  border-top: 1rem solid transparent;
+  border-bottom: 1rem solid transparent;
+}
+
+.mainFour .mF-coating-list-all .coating-arrow.btw {
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+  margin: auto;
+}
+
+.mainFour .coating-text > p {
+  color: black;
+}
+
+.mainFive-all {
+  position: relative;
+  background-color: #fff;
+  padding: 0;
+}
+
+.mainFive-all > svg {
+  position: absolute;
+  top: -17rem;
+}
+
+.mainFive-all .mainFive-thema {
+  background-image: url(img/img19.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 80%;
+  margin-left: 9rem;
+}
+
+.mainFive-all .mainFive-thema > p {
+  font-size: 2rem;
+  padding: 3rem;
+  letter-spacing: 0.3rem;
+}
+
+.mainFive-all .mainFive-table {
+  padding: 0 10rem;
+  position: relative;
+}
+
+.mainFive-all .mainFive-table .table {
+  text-align: center;
+}
+
+.mainFive-all .mainFive-table .table > thead > tr > th {
+  font-size: 1.5rem;
+}
+
+.mainFive-all .mainFive-table .table .table-info {
+  color: #fff;
+}
+
+.mainFive-all .mainFive-table .table > tbody > tr .f-th {
+  padding-top: 1rem;
+}
+
+.mainFive-all .mainFive-table .table > tbody > tr > td {
+  font-size: 1.5rem;
+}
+
+.mainFive-all .mainFive-table .table > tbody > tr > td:nth-of-type(2) {
+  font-size: 1.7rem;
+}
+
+.mainFive-all .mainFive-table .table-arrow-all {
+  position: absolute;
+  top: 20%;
+  right: 29%;
+}
+
+.mainFive-all .mainFive-table .table-arrow-all .table-arrow {
+  height: 2.1rem;
+  width: 3.1rem;
+  background-color: #edf012;
+  position: relative;
+  font-size: 1.3rem;
+  text-align: end;
+  margin-bottom: 1.5rem;
+}
+
+.mainFive-all .mainFive-table .table-arrow-all .table-arrow::after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 1.5rem 0 1.5rem 1.8rem;
+  border-color: transparent transparent transparent #edf012;
+  position: absolute;
+  top: -22%;
+  left: 98%;
+}
+
+.mainFive-all .mainFive-text-under {
+  padding: 0 10rem;
+}
+
+.mainFive-all .mainFive-text-under > p {
+  margin-bottom: 0;
+}
+
+.mainFive-all .mainFive-text-under .text-under-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mainFive-all .mainFive-text-under .text-under-list > p {
+  margin-bottom: 0;
+}
+
+.mainFive-all .mainFive-text-under .text-under-list > p:nth-of-type(1) {
+  width: 27%;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

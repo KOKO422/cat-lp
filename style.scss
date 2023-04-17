@@ -133,7 +133,7 @@ h2 span {
         .mainOnetext-all {
             .text-square {
                 background-color: deepskyblue;
-                margin: 1rem 15rem 1rem 0rem;
+                margin: 1rem 10rem 1rem 0rem;
                 padding-left: 1rem;
                 & > p {
                     font-size: 3rem;
@@ -145,7 +145,7 @@ h2 span {
                     }                
                 }
                 &:nth-of-type(3) {
-                    margin: 1rem 10rem 0rem 0rem;                    
+                    margin: 1rem 8rem 0rem 0rem;                    
                     & > p {
                     margin-bottom: 0;
                     }
@@ -165,7 +165,7 @@ h2 span {
 }
 //mainSec frameOne
 .mainSec-all.container {
-    padding: 0 10rem 3rem;
+    padding: 3rem 10rem;
 }
 .mainSec-frameOne {
     margin-bottom: 3rem;
@@ -178,19 +178,25 @@ h2 span {
         width: 50%;
         padding: 0.5rem;
         & > h1 {
+            font-size: 2rem;
             letter-spacing: 0.3rem;
         }
         & > p {
             font-size: 1.3rem;
-            line-height: 2.5rem;
             padding: 2rem 0;
         }
     }
     .fOne-contents-right {
         width: 50%;
+        margin: auto;
     }
 }
 //mainSec frameSec
+.mainSec-frameSec {
+    background-image: url(img/img18.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .fOne-img {
     width: 10%;
     position: relative;
@@ -228,7 +234,7 @@ h2 span {
         .left-text-under {
             padding-left: 3rem;
             margin-top: 2rem;
-            letter-spacing: 0.3rem;
+            letter-spacing: 0.1rem;
             & > h2 {
                 -webkit-text-stroke: 0.04rem #FFF;
             }
@@ -400,7 +406,7 @@ h2 span {
     background-repeat: no-repeat;
     .mainThr-frameSec-all {
         position: relative;
-        padding: 2rem;
+        padding: 2rem 2rem 6rem;
         .frameSec-Thema {
             width: 40%;
             margin: 5rem 5rem 13rem;
@@ -485,6 +491,14 @@ h2 span {
     }
 }
 //mainFour-all
+.mainFour-all {
+    position: relative;
+    padding-bottom: 6rem;
+    & > svg {
+        position: absolute;
+        top: -15rem;
+    }
+}
 .mainFour {
     text-align: center;
     padding: 3rem;
@@ -506,7 +520,7 @@ h2 span {
     }
     .mF-coating-list-all {
         width: 70%;
-        margin: auto;
+        margin: 3rem auto 2rem;
         .coating-list {
             display: flex;
             justify-content: space-evenly;
@@ -514,12 +528,115 @@ h2 span {
                 width: 35%;
                 height: 15rem;
                 background-color: #6a5247;
-                margin-bottom: 3rem;
+            }
+        }
+        .coating-arrow {
+            width: 0;
+            height: 0;
+            margin: auto 0;
+            border-left: 1.5rem solid #6a5247;
+            border-top: 1rem solid transparent;
+            border-bottom: 1rem solid transparent;
+            &.btw {
+                transform: rotate(10deg);
+                margin: auto;
+            }
+        }
+    }
+    .coating-text {
+        & > p {
+            color: black;
+        }
+    }
+}
+//mainFive 
+.mainFive-all {
+    position: relative;
+    background-color: #fff;
+    padding: 0;
+    & > svg {
+        position: absolute;
+        top: -17rem;
+    }
+    .mainFive-thema {
+        background-image: url(img/img19.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        width: 80%;
+        margin-left: 9rem;
+        & > p {
+            font-size: 2rem;
+            padding: 3rem;
+            letter-spacing: 0.3rem;
+        }
+    }
+    .mainFive-table {
+        padding: 0 10rem;
+        position: relative;
+        .table {
+            text-align: center;
+            & > thead > tr > th {
+                font-size: 1.5rem;
+            }
+            .table-info {
+                //background-color: aqua;
+                color: #fff;
+            }
+            & > tbody > tr {
+                .f-th {
+                    padding-top: 1rem;
+                }
+                & > td {
+                    font-size: 1.5rem;
+                    &:nth-of-type(2) {
+                        font-size: 1.7rem;
+                    }
+                }
+        }
+    }
+    .table-arrow-all {
+        position: absolute;
+        top: 20%;
+        right: 29%;
+        .table-arrow {
+            height: 2.1rem;
+            width: 3.1rem;
+            background-color: rgb(237, 240, 18);
+            position:  relative;
+            font-size: 1.3rem;
+            text-align: end;
+            margin-bottom: 1.5rem;
+        }
+        .table-arrow::after {
+            content:  '';
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 1.5rem 0 1.5rem 1.8rem;
+            border-color: transparent transparent transparent rgb(237, 240, 18);
+            position:  absolute;
+            top: -22%;
+            left: 98%;
+        }
+    }
+    }
+    .mainFive-text-under {
+        padding: 0 10rem;
+        & > p {
+            margin-bottom: 0;
+        }
+        .text-under-list {
+            display: flex;
+            & > p {
+                margin-bottom: 0;
+                &:nth-of-type(1) {
+                    width: 27%;
+                    text-align: center;
+                }
             }
         }
     }
 }
 
-
 //footer
-
