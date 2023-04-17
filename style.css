@@ -5,6 +5,11 @@
   max-width: 1500px;
 }
 
+p, h1, h2, h3, h4 {
+  font-family: "Hiragino Sans", "ヒラギノ角ゴシック";
+  color: #a1978f;
+}
+
 img {
   width: 100%;
   position: relative;
@@ -94,6 +99,39 @@ h2 span {
   left: -2rem;
   top: -3rem;
   position: relative;
+}
+
+.img-all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2rem auto;
+}
+
+.img-all > img:nth-of-type(1) {
+  width: 20%;
+  height: 5rem;
+  margin: auto 0;
+}
+
+.img-all > img:nth-of-type(2) {
+  width: 15%;
+  height: 5rem;
+  margin: auto 0;
+}
+
+.img-all > span {
+  font-size: 4rem;
+  margin: 0rem 3rem;
+}
+
+.main-all {
+  background-image: url(img/img15.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .main-img {
@@ -540,5 +578,48 @@ h2 span {
 
 .mainThr-frameSec .mainThr-frameSec-all .frameSec-list-all .frameSec-list-right .right-under > p {
   color: #FFF;
+}
+
+.mainFour {
+  text-align: center;
+  padding: 3rem;
+}
+
+.mainFour .mainFour-comment > p {
+  font-size: 2rem;
+}
+
+.mainFour .mainFour-text-midle {
+  width: 70%;
+  margin: 3rem auto;
+  padding: 1rem;
+  background-color: #6a5247;
+  font-size: 1.5rem;
+}
+
+.mainFour .mainFour-text-midle > p {
+  margin-bottom: 0;
+  color: #FFF;
+}
+
+.mainFour .mF-coating-list-all {
+  width: 70%;
+  margin: auto;
+}
+
+.mainFour .mF-coating-list-all .coating-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.mainFour .mF-coating-list-all .coating-list .coating-box {
+  width: 35%;
+  height: 15rem;
+  background-color: #6a5247;
+  margin-bottom: 3rem;
 }
 /*# sourceMappingURL=style.css.map */

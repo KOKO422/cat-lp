@@ -3,6 +3,11 @@
     width: 100%;
     max-width: 1500px;
 }
+p, h1, h2, h3, h4 {
+    font-family:"Hiragino Sans", "ヒラギノ角ゴシック";
+    color: #a1978f;
+}
+
 //header
 img {
     width: 100%;
@@ -87,7 +92,31 @@ h2 span {
         position: relative;
     }
 }
+.img-all {
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+    & > img:nth-of-type(1) {
+        width: 20%;
+        height: 5rem;
+        margin: auto 0;
+    }
+    & > img:nth-of-type(2) {
+        width: 15%;
+        height: 5rem;
+        margin: auto 0;
+    }
+    & > span {
+        font-size: 4rem;
+        margin: 0rem 3rem;
+    }
+}
 //mainOne
+.main-all {
+    background-image: url(img/img15.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .main-img {
     width: 15%;
 }
@@ -451,6 +480,41 @@ h2 span {
                     }
                     
                 }
+            }
+        }
+    }
+}
+//mainFour-all
+.mainFour {
+    text-align: center;
+    padding: 3rem;
+    .mainFour-comment {
+        & > p {
+            font-size: 2rem;
+        }
+    }
+    .mainFour-text-midle {
+        width: 70%;
+        margin: 3rem auto;
+        padding: 1rem;
+        background-color: #6a5247;
+        font-size: 1.5rem;
+        & > p {
+            margin-bottom: 0;
+            color: #FFF;
+        }
+    }
+    .mF-coating-list-all {
+        width: 70%;
+        margin: auto;
+        .coating-list {
+            display: flex;
+            justify-content: space-evenly;
+            .coating-box {
+                width: 35%;
+                height: 15rem;
+                background-color: #6a5247;
+                margin-bottom: 3rem;
             }
         }
     }
