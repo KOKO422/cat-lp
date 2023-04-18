@@ -738,7 +738,7 @@ h2 span {
 //mainSix
 .mainSix-frameOne {
     background-color: #6a5247;
-    padding: 2rem 4rem 10rem;
+    padding: 2rem 4rem 12rem;
     .frameOne-frame {
         border: solid 0.5rem white;
         padding: 0.5rem;
@@ -772,6 +772,35 @@ h2 span {
     position: relative;
     & > svg {
         position: absolute;
-        top: -223%;
+        top: -63%;
+    }
+    .footer-all {
+        text-align: center;
+        .footer-text {
+            & > h1 > span {
+                font-size: 3rem;
+            }
+            .text-midle {
+                display: flex;
+                justify-content: center;
+            }
+            .footer-number {
+                font-size: 7rem;
+                color: rgb(11, 140, 246);
+            }
+        }
+        .company-name {
+            display: flex;
+            .company-name-text {
+                width: 90%;
+                padding-left: 10rem;
+                & > p {
+                    margin-bottom: 0;
+                }
+            }
+            .company-img {
+                width: 10%;
+            }
+        }
     }
 }

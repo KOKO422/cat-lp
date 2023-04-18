@@ -889,7 +889,7 @@ h2 span {
 
 .mainSix-frameOne {
   background-color: #6a5247;
-  padding: 2rem 4rem 10rem;
+  padding: 2rem 4rem 12rem;
 }
 
 .mainSix-frameOne .frameOne-frame {
@@ -932,6 +932,47 @@ h2 span {
 
 .footer > svg {
   position: absolute;
-  top: -223%;
+  top: -63%;
+}
+
+.footer .footer-all {
+  text-align: center;
+}
+
+.footer .footer-all .footer-text > h1 > span {
+  font-size: 3rem;
+}
+
+.footer .footer-all .footer-text .text-midle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .footer-all .footer-text .footer-number {
+  font-size: 7rem;
+  color: #0b8cf6;
+}
+
+.footer .footer-all .company-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .footer-all .company-name .company-name-text {
+  width: 90%;
+  padding-left: 10rem;
+}
+
+.footer .footer-all .company-name .company-name-text > p {
+  margin-bottom: 0;
+}
+
+.footer .footer-all .company-name .company-img {
+  width: 10%;
 }
 /*# sourceMappingURL=style.css.map */
