@@ -3,6 +3,7 @@
   background-color: #c3f6ff;
   width: 100%;
   max-width: 1500px;
+  padding: 0;
 }
 
 p, h1, h2, h3, h4 {
@@ -721,8 +722,8 @@ h2 span {
 
 .mainFive-all .mainFive-table .table-arrow-all .table-arrow {
   height: 2.1rem;
-  width: 3.1rem;
-  background-color: #edf012;
+  width: 3.3rem;
+  background-color: yellow;
   position: relative;
   font-size: 1.3rem;
   text-align: end;
@@ -735,7 +736,7 @@ h2 span {
   height: 0;
   border-style: solid;
   border-width: 1.5rem 0 1.5rem 1.8rem;
-  border-color: transparent transparent transparent #edf012;
+  border-color: transparent transparent transparent yellow;
   position: absolute;
   top: -22%;
   left: 98%;
@@ -762,5 +763,175 @@ h2 span {
 .mainFive-all .mainFive-text-under .text-under-list > p:nth-of-type(1) {
   width: 27%;
   text-align: center;
+}
+
+.mainFive-all .mainFive-frame-all {
+  position: relative;
+  padding: 2rem 10rem;
+}
+
+.mainFive-all .mainFive-frame-all .mF-frame-img {
+  position: absolute;
+  width: 15%;
+  top: -12%;
+  right: 10%;
+}
+
+.mainFive-all .mainFive-frame-all .mF-frame-contents {
+  border: solid #08b5f4;
+  padding: 1.5rem 1.5rem 0;
+  border-radius: 3%;
+}
+
+.mainFive-all .mainFive-frame-all .mF-frame-contents > p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.mainFive-all .mainFive-frame-all .mF-frame-contents .mF-frame-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mainFive-all .mainFive-frame-all .mF-frame-contents .mF-frame-box .box-text-left {
+  width: 50%;
+  margin: auto;
+}
+
+.mainFive-all .mainFive-frame-all .mF-frame-contents .mF-frame-box .box-text-left > p:nth-of-type(1) {
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+}
+
+.mainFive-all .mainFive-frame-all .mF-frame-contents .mF-frame-box .box-text-left > p:nth-of-type(1):nth-of-type(2) {
+  margin-bottom: 0;
+}
+
+.mainFive-all .mainFive-frame-all .mF-frame-contents .mF-frame-box .box-text-left .table {
+  text-align: center;
+}
+
+.mainFive-all .mainFive-frame-all .mF-frame-contents .mF-frame-box .box-text-left .table > thead > tr > th {
+  background-color: deepskyblue;
+}
+
+.mainFive-all .mainFive-frame-all .mF-frame-contents .mF-frame-box .box-text-left .table > tbody > tr > th, .mainFive-all .mainFive-frame-all .mF-frame-contents .mF-frame-box .box-text-left .table td {
+  background-color: deepskyblue;
+}
+
+.mainFive-all .mainFive-frame-all .mF-frame-contents .mF-frame-box .box-img-right {
+  width: 40%;
+  margin: auto;
+}
+
+.mainFive-all .mainFive-frame-all .mF-frameSec-all {
+  background-color: deepskyblue;
+  margin: 3rem 0;
+  padding: 3rem 0;
+  position: relative;
+}
+
+.mainFive-all .mainFive-frame-all .mF-frameSec-all .frameSec-Square {
+  position: absolute;
+  width: 13%;
+  text-align: center;
+  background-color: #6a5247;
+  padding: 0.7rem;
+  top: 0;
+}
+
+.mainFive-all .mainFive-frame-all .mF-frameSec-all .frameSec-Square > p {
+  margin-bottom: 0;
+  color: white;
+}
+
+.mainFive-all .mainFive-frame-all .mF-frameSec-all .frameSec-Square > p:nth-of-type(3) {
+  font-size: 2rem;
+}
+
+.mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-left {
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  background-color: #fff;
+}
+
+.mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-left > img {
+  width: 75%;
+}
+
+.mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-right {
+  width: 60%;
+  padding: 1rem 5rem;
+}
+
+.mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-right > h3, .mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-right p {
+  color: #FFF;
+  margin-bottom: 0;
+}
+
+.mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-right .right-thema {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-right .right-textOne {
+  margin-bottom: 1rem;
+}
+
+.mainSix-frameOne {
+  background-color: #6a5247;
+  padding: 2rem 4rem 10rem;
+}
+
+.mainSix-frameOne .frameOne-frame {
+  border: solid 0.5rem white;
+  padding: 0.5rem;
+}
+
+.mainSix-frameOne .frameOne-frame .frameOne-frameSmall {
+  border: solid 0.2rem white;
+  padding: 1rem 3rem;
+  text-align: center;
+}
+
+.mainSix-frameOne .frameOne-frame .frameOne-frameSmall > p {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 0;
+}
+
+.mainSix-frameOne .frameOne-frame .frameOne-frameSmall > p > span {
+  font-size: 3rem;
+}
+
+.mainSix-frameOne .frameOne-frame .frameOne-frameSmall > p:nth-of-type(2) {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+.mainSix-frameOne .frameOne-frame .frameOne-frameSmall > img {
+  width: 50%;
+}
+
+.mainSix-frameOne .frameOne-frame .frameOne-frameSmall .dotted-line {
+  border-bottom: dashed 0.2rem white;
+}
+
+.footer {
+  position: relative;
+}
+
+.footer > svg {
+  position: absolute;
+  top: -223%;
 }
 /*# sourceMappingURL=style.css.map */
